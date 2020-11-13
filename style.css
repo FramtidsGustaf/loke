@@ -18,3 +18,15 @@ body {
   height: 100px;
   width: 100px;
 }
+
+h1 {
+  font-family: "Corben", cursive;
+  font-size: 2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #dfe0e2;
+  text-shadow: 0.1em 0.1em #071013;
+}

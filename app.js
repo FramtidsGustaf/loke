@@ -1,25 +1,6 @@
 class Fluga {
   constructor() {
     this.body = document.querySelector("body");
-    this.colorArray = [
-      "blue",
-      "red",
-      "black",
-      "cyan",
-      "coral",
-      "green",
-      "chartreuse",
-      "crimson",
-      "gold",
-      "lightseagreen",
-      "magenta",
-      "orangered",
-      "palegreen",
-      "palevioletred",
-      "plum",
-      "purple",
-      "turquoise",
-    ];
   }
   skapaFluga() {
     let element = document.createElement("div");
